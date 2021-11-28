@@ -3,19 +3,19 @@
 Manga files have to be structured below, it tested for `cbz` and `cbr` files. Tanoshi support single archive file, archive files inside a series folder, and image folders inside a series folder.
 
 ::: warning
-    While single archive will be considered a series, a folder with images inside will not considered a series.
+While single archive will be considered a series, a folder with images inside will not considered a series.
 :::
 
 ::: tip "Series"
-    Every folder or archive inside manga directory will be considered a series.
+Every folder or archive inside manga directory will be considered a series.
 :::
 
 ::: tip "Chapters"
-    Every folder or archive inside a series folder will be considered a chapter
+Every folder or archive inside a series folder will be considered a chapter
 :::
 
 ::: tip "Page"
-    Every file inside archive or a chapter folder will be considered a page.
+Every file inside archive or a chapter folder will be considered a page.
 :::
 
 ```
