@@ -1,0 +1,19 @@
+{
+  "name": "tanoshi",
+  "version": "0.0.1",
+  "description": "selfhosted web manga reader",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "https://github.com/faldez/tanoshi/tanoshi",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
