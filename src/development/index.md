@@ -1,9 +1,8 @@
 # Development
 
-## Build
 Tanoshi backend use [rust-embed](https://github.com/pyros2097/rust-embed) to embed static files to the binary. Because of this, `tanoshi-web` need to be built first so `tanoshi` will be able to build successfully.
 
-### Frontend
+## Frontend
 1. Install Rust
 2. Install trunk and wasm-bindgen-cli
    ```
@@ -18,7 +17,7 @@ Tanoshi backend use [rust-embed](https://github.com/pyros2097/rust-embed) to emb
     trunk build
     ```
 
-### Backend
+## Backend
 1. Change directory into `crates/tanoshi` or root repository
 2. Install dependencies for https://github.com/faldez/libarchive-rs
 3. Install dependency for https://gitlab.com/taricorp/llvm-sys.rs
@@ -35,7 +34,7 @@ Tanoshi backend use [rust-embed](https://github.com/pyros2097/rust-embed) to emb
     cargo build
     ```
 
-### Desktop
+## Desktop
 1. Do steps for both frontend and backend
 2. Install depedencies for tauri
 3. Install tauri cli
