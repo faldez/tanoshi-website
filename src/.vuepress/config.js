@@ -66,6 +66,10 @@ module.exports = {
           title: 'Guide',
           path: '/guide/'
         },
+        {
+          title: 'Development',
+          path: '/development/'
+        },
       ],
       '/screenshots/': [
         {
@@ -82,6 +86,10 @@ module.exports = {
         {
           title: 'Guide',
           path: '/guide/'
+        },
+        {
+          title: 'Development',
+          path: '/development/'
         },
       ],
       '/guide/': [
@@ -104,7 +112,32 @@ module.exports = {
             'files',
             'notifications'
           ]
-        }
+        },
+        {
+          title: 'Development',
+          path: '/development/'
+        },
+      ],
+      '/development/': [
+        {
+          title: 'Installations',
+          path: '/installation/'
+        },
+        {
+          title: 'Screenshots',
+          path: '/screenshots/'
+        },
+        {
+          title: 'Guide',
+          path: '/guide/'
+        },
+        {
+          title: 'Development',
+          collapsable: false,
+          children: [
+            '',
+          ]
+        },
       ],
     },
     logo: '/tanoshi.png'
