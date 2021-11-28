@@ -21,9 +21,33 @@ then replace `<your bot name>` to the bot's name and `<your bot token>` with tok
 
 ### Chat ID
 
-Open Telegram, go to bot chats then issue `/notifyme` command. The bot will reply with your chat id, copy the number, open Tanoshi > More > your username > Notification > Telegram chat id. You can click test to verify the bot is working, then click submit to register the chat id.
+Open Telegram, go to bot chats then issue `/notifyme` command. The bot will reply with your chat id, copy the number, open `Tanoshi > More > your username > Notification > Telegram chat id`. You can click test to verify the bot is working, then click submit to register the chat id.
 
 
 ## Pushover
 
-TODO
+
+### Pushover Account
+Register an account on [Pushover](https://pushover.net/). 
+
+### Create an Application
+Create application for Tanoshi [here](https://pushover.net/apps/build). You can use Tanoshi icon or use your own icon. Then you will be given API Token/Key
+
+### Config
+
+Put below config to your `config.yml`
+
+```yaml
+pushover:
+  application_key: <your pushover application key>
+```
+
+replace `<your pushover application key>` with API Token/Key from previous step.
+
+### User Key
+
+Pushover can send to multiple user. Login to [pushover.net](https://pushover.net) and you will see your user key. Copy the key to `Tanoshi > More > your username > Notification > Pushover user key`. You can click test to verify the bot is working, then click submit to register the user key.
+
+## Desktop
+
+In addition to notification methods above, desktop version can also notify via desktop notification.
