@@ -6,15 +6,15 @@ Manga files have to be structured below, it tested for `cbz` and `cbr` files. Ta
 While single archive will be considered a series, a folder with images inside will not considered a series.
 :::
 
-::: tip "Series"
+::: tip Series
 Every folder or archive inside manga directory will be considered a series.
 :::
 
-::: tip "Chapters"
+::: tip Chapters
 Every folder or archive inside a series folder will be considered a chapter
 :::
 
-::: tip "Page"
+::: tip Page
 Every file inside archive or a chapter folder will be considered a page.
 :::
 

@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: 'assets/tanoshi.png'
+heroImage: '/tanoshi/assets/tanoshi.png'
 tagline: Selfhosted web manga reader
 actionText: Quick Start →
 actionLink: /guide/

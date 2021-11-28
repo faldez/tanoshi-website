@@ -142,7 +142,7 @@ module.exports = {
         },
       ],
     },
-    logo: 'assets/tanoshi.png'
+    logo: '/tanoshi/assets/tanoshi.png'
   },
 
   /**
