@@ -39,3 +39,17 @@ Every file inside archive or a chapter folder will be considered a page.
 ├─── Series 4.cbz
 └─── Series 5.cbr
 ```
+
+## Manga Details
+By default local manga does not have any details. You can input the details by create a file called `details.json` inside a Manga (Series) folder. You can edit from below example as necessary.
+
+```
+{
+  "title": "An Interesting Manga",
+  "author: ["Author 1", "Author 2"],
+  "genre: ": ["Romance", "Action"],
+  "status": "Ongoing",
+  "description": "This manga is so interesting",
+  "cover_path": "relative/path/from/series/folder/to/thumbail.jpg",
+}
+```
