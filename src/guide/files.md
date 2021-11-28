@@ -7,7 +7,7 @@ While single archive will be considered a series, a folder with images inside wi
 :::
 
 ::: tip Series
-Every folder or archive inside manga directory will be considered a series.
+Every folder inside manga directory will be considered a series. An archive inside manga directory will be considered a series with 1 chapter.
 :::
 
 ::: tip Chapters
