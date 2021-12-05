@@ -153,7 +153,7 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
     '@vuepress/google-analytics',
     {
-      'ga': 'G-FJ1003907K'
+      'ga': 'UA-44797923-3'
     }
   ]
 }
