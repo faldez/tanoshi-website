@@ -1,5 +1,26 @@
 # Local Manga Files
 
+## Config
+Local manga directory are specified on `config.yml` file. Tanoshi support single and multiple directories.
+
+### Single directory
+
+```
+local_path:  /path/to/local
+```
+
+### Multiple directories
+
+```
+local_path:
+- name: Local1
+  path: /path/to/local1
+- name: Local2
+  path: /path/to/local2
+```
+
+
+## Structure
 Manga files have to be structured below, it tested for `cbz` and `cbr` files. Tanoshi support single archive file, archive files inside a series folder, and image folders inside a series folder.
 
 ::: warning
