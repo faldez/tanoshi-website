@@ -5,6 +5,8 @@ Tanoshi will look `config.yml` in `$TANOSHI_HOME` which defaults to `$HOME/.tano
 ## Example
 
 ```yaml
+# Tanoshi base url without prefix '/', necessary to have link in notification
+base_url:  <your tanoshi url>
 # Port for tanoshi to server, default to 80, ignored in desktop version
 port: 3030
 # Absolute path to database
