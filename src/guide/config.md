@@ -17,6 +17,12 @@ secret: <16 alphanumeric characters>
 plugin_path: /absolute/path/to/plugins
 # Absolute path to local manga
 local_path: /absolute/path/to/manga
+# you can multiple named directories for local manga
+# local_path:
+# - name: Local1
+#   path: /path/to/local1
+# - name: Local2
+#   path: /path/to/local2
 # Absolute path to downloaded manga
 download_path: /absolute/path/to/manga
 # Periodic update interval in seconds, must be over 3600, set to 0 to disable

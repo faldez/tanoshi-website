@@ -19,6 +19,32 @@ local_path:
   path: /path/to/local2
 ```
 
+### Docker
+To have your local manga files in docker you have to mount your directory into your docker container. e.g.
+
+```
+docker create \
+    --name=tanoshi \
+    -p 8080:80 \
+    --mount type=bind,source=/path/to/data,target=/tanoshi \
+    --mount type=bind,source=/path/to/manga,target=/tanoshi/manga \
+    --restart unless-stopped \
+    faldez/tanoshi
+```
+
+if you wish to have different path for manga in container, e.g.
+
+```
+docker create \
+    --name=tanoshi \
+    -p 8080:80 \
+    --mount type=bind,source=/path/to/data,target=/tanoshi \
+    --mount type=bind,source=/path/to/manga,target=/manga \
+    --restart unless-stopped \
+    faldez/tanoshi
+```
+
+ then in `config.yaml` you need to set `local_path` to `/manga` or whatever path you wish them to be. 
 
 ## Structure
 Manga files have to be structured below, it tested for `cbz` and `cbr` files. Tanoshi support single archive file, archive files inside a series folder, and image folders inside a series folder.

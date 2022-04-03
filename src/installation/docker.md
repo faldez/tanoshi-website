@@ -8,6 +8,7 @@ docker create \
     --name=tanoshi \
     -p 8080:80 \
     --mount type=bind,source=/path/to/data,target=/tanoshi \
+    --mount type=bind,source=/path/to/manga,target=/tanoshi/manga \
     --restart unless-stopped \
     faldez/tanoshi
 ```
