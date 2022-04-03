@@ -113,7 +113,8 @@ module.exports = {
             'extensions',
             'files',
             'notifications',
-            'categories'
+            'categories',
+            'downloads'
           ]
         },
         {
