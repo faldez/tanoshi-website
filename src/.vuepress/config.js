@@ -112,7 +112,8 @@ module.exports = {
             'config',
             'extensions',
             'files',
-            'notifications'
+            'notifications',
+            'categories'
           ]
         },
         {
