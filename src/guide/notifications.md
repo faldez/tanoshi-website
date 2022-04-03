@@ -1,5 +1,7 @@
 # Notifications
 
+Tanoshi will notify you if new chapters are available and at least one of the notification channel is setup. If you wish to include direct link to the chapters in tanoshi, you must set `base_url` field in `config.yaml` to url which you access you tanoshi instance.
+
 ## Telegram
 
 

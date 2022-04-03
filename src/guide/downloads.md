@@ -1,5 +1,6 @@
 # Download
 
+Tanoshi can download chapters of manga from supported sources and auto download them for you. Download chapters only available for user with admin role.
 ## Download chapters
 
 To download chapters of manga
