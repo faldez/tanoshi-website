@@ -140,6 +140,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'extension'
           ]
         },
       ],
