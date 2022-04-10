@@ -114,7 +114,8 @@ module.exports = {
             'files',
             'notifications',
             'categories',
-            'downloads'
+            'downloads',
+            'tracking'
           ]
         },
         {
