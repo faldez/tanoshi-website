@@ -13,4 +13,4 @@ anilist:
   client_secret: <anilist client secret>
 ```
 
-This is because oauth require redirect url which is different for anyone hosting Tanoshi.
+This is because oauth require redirect url which is different for anyone hosting Tanoshi. Tracker not supported on desktop app for time being.
