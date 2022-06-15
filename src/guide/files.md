@@ -93,8 +93,8 @@ By default local manga does not have any details. You can input the details by c
 ```
 {
   "title": "An Interesting Manga",
-  "author: ["Author 1", "Author 2"],
-  "genre: ": ["Romance", "Action"],
+  "author": ["Author 1", "Author 2"],
+  "genre": ["Romance", "Action"],
   "status": "Ongoing",
   "description": "This manga is so interesting",
   "cover_path": "relative/path/from/series/folder/to/thumbail.jpg",

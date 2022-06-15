@@ -2,7 +2,7 @@
 
 Tanoshi can automatically update read manga chapters to supported trackers, namely [MyAnimeList](https://myanimelist.net/) and [AniList](https://anilist.co/).
 
-To be able to use tracking, you need to setup application on your tracker account and get `client_id` and `client_secret`, then put those value on your `config.yaml`
+To be able to use tracking, you need to setup application on your tracker account and get `client_id` and `client_secret`, then put those value on your `config.yaml`. You also need to have configured the base url in the `config.yaml`
 
 ```yaml
 myanimelist:
