@@ -50,6 +50,32 @@ replace `<your pushover application key>` with API Token/Key from previous step.
 
 Pushover can send to multiple user. Login to [pushover.net](https://pushover.net) and you will see your user key. Copy the key to `Tanoshi > More > your username > Notification > Pushover user key`. You can click test to verify the bot is working, then click submit to register the user key.
 
+## Gotify
+
+
+### Set up server
+
+Gotify sends notifications through a dedicated server. Follow the guide on their [homepage](https://gotify.net/docs/index) to set up a server.
+
+On the server also set up a new application (Apps > Create Application). Copy the token for your application. 
+
+### Config
+
+After your server is running, put below config to your `config.yml`.
+
+```yaml
+gotify:
+  base_url: <URL to your server>
+```
+
+make sure to add the protocol to the server url ( __HTTP__ / __HTTPS__ ).
+
+### Token
+
+In Tanoshi open `Tanoshi > More > your username > Notification > Gotify token`. Paste the token you copied from your server earlier.
+You can click test to verify the token is working, then click submit to register your Gotify server.
+
+
 ## Desktop
 
 In addition to notification methods above, desktop version can also notify via desktop notification.
