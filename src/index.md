@@ -11,5 +11,5 @@ features:
   details: Get notified when new chapter released.
 - title: Extensions
   details: Browse, search, and read from local and external sources provided by extensions.
-footer: Made by  with ❤️
+footer: Made with ❤️
 ---
