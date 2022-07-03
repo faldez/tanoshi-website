@@ -38,4 +38,7 @@ telegram:
 # Pushover
 pushover:
   application_key: <your pushover application key>
+# Gotify
+gotify:
+  base_url: <URL to your server>
 ```
